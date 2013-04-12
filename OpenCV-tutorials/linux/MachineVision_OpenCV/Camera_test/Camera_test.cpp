@@ -60,8 +60,8 @@ int main()
 		// if temp==-1, then waitKey() timed out (there was no keypress)
 		if (temp>=0)
 		{
-			// If it was a 'g', then save the frame to a file in the local directory
-			if (temp == 'g')
+			// If it was a 'f', then save the frame to a file in the local directory
+			if (temp == 'f')
 			{
 				imwrite("./frame_grab.jpg", capture_frame);
 			}
